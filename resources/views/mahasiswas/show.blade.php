@@ -39,14 +39,14 @@
                         <label for="jurusan"
                             class="col-md-4 col-form-label text-md-end text-start"><strong>Jurusan:</strong></label>
                         <div class="col-md-6" style="line-height: 35px;">
-                            {{ $mahasiswa->name }}
+                            {{ $mahasiswa->jurusan }}
                         </div>
                     </div>
                     <div class="mb-3 row">
                         <label for="semester"
                             class="col-md-4 col-form-label text-md-end text-start"><strong>Semester:</strong></label>
                         <div class="col-md-6" style="line-height: 35px;">
-                            {{ $mahasiswa->name }}
+                            {{ $mahasiswa->semester }}
                         </div>
                     </div>
                 </div>
